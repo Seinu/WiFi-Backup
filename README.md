@@ -1,5 +1,7 @@
 # WiFi-Backup
-Cross Platform python script for backing up saved WiFi Keys on MacOS, Windows and Linux
+Cross Platform python script for backing up saved WiFi Keys on MacOS, Windows and Linux.
+
+Runs out of box on both Linux and MacOS. install either python 2 or python 3 on Windows to run it.
 
 	File Name:	getWifiKeys.vbs, WiFi-Backup.py
 	Authors:	Hackoo & Seinu
