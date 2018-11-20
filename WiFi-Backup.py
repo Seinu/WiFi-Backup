@@ -26,6 +26,7 @@
 #		10/05/2016 - v1.3c	updated to camelcase
 #       11/20/2018 - v2.0a  updated script to python with multiplatform support
 #                                for both Windows and MacOS
+#       11/20/2018 - v2.0b  added Linux support
 #
 #*****************************************************************************'
 import subprocess, platform, re, ctypes, sys
