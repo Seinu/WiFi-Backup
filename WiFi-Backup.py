@@ -51,7 +51,7 @@ if platform.system() == 'Darwin':
 elif platform.system() == 'Windows':
     if is_admin():
         SSID_List = subprocess.check_output("netsh wlan show all > .\\WiFi.txt", shell=True)
-        objFile = open("C:\\WiFi.txt", "r")
+        objFile = open(".\\WiFi.txt", "r")
         strContent = objFile.read()
         objFile.close()
         SSID = re.findall(r'(?<=SSID name              : )\".+\"', strContent)
